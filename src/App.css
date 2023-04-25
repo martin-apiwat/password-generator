@@ -1,0 +1,51 @@
+body {
+   background-color: #16111a;
+   color: white;
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.App {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   gap: 20px;
+}
+
+.password-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 15px;
+}
+
+.password-container h2 {
+   font-size: 16px;
+}
+
+.password-container h3 {
+   font-size: 18px;
+}
+
+.password-box {
+   background-color: #2d1f39;
+   width: 250px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   padding: 10px;
+}
+
+.generator-container {
+   background-color: #2d1f39;
+   padding: 10px;
+   width: 250px;
+   height: 300px;
+}
+
+.character-box {
+   display: flex;
+   justify-content: space-between;
+}
